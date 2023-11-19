@@ -1,0 +1,13 @@
+Task
+1. Jelaskan apa itu DBT !
+DBT atau Data Build Tools, adalah open source yang membantu membangun, menguji, dan memelihara infrastruktur data. DBT memungkinkan pengguna untuk menentukan model data mereka menggunakan SQL, dan kemudian menggunakan model tersebut untuk menghasilkan kode SQL yang dioptimalkan yang dapat dijalankan pada data warehouse atau sistem penyimpanan data lainnya. Hal ini memungkinkan pengguna untuk membangun infrastruktur data yang dapat dipelihara dan ditingkatkan skalanya, serta dapat dengan mudah diperbarui dan diperluas seiring berjalannya waktu.
+
+2. Apa keuntungan menggunakan DBT ?
+- Better Data Quality, DBT membantu meningkatkan kualitas data melalui pengujian dan validasi terintegrasi
+- Easy Maintanance, dengan definisi struktur model data, pemeliharaan, dan pengembangan lebih mudah dan dapat diotomatisasi
+- Data Consitency, Karena data akan tetap sama selama tidak ada perubahan data
+- Reduced Technical Burden, DBT memungkinkan analis data bekerja lebih produktif tanpa harus mengkhawatirkan proses teknis ETL
+
+3. Jelaskan dependency tree dan versioning pada DBT !
+Dependency Tree adalah setiap proyek dbt memiliki dependency tree yang menggambarkan hubungan model-data. Hal ini memungkinkan dbt untuk mengelola urutan transformasi data dan memastikan model data diperbarui dengan benar
+Versioning adalah pembuatan versi model data untuk melacak perubahan yang dibuat dan mengelola versi model data.
